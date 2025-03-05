@@ -1,0 +1,19 @@
+.gallery {
+    max-width: 648px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 16px;
+    column-gap: 8px;
+
+    margin: 100px 156px;
+    padding: 0;
+    list-style: none;
+}
+
+.image-js {
+    border-radius: 10px;
+    border: 6px solid cadetblue;
+}

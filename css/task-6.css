@@ -1,0 +1,70 @@
+#controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    border-radius: 8px;
+
+    padding: 32px;
+    margin-bottom: 16px;
+
+    width: 486px;
+    height: 104px;
+    background: #f6f6fe;
+}
+
+input {
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px 50px;
+    width: 150px;
+    height: 40px;
+
+    font-family: "Montserrat",
+        sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.btn {
+    border-radius: 8px;
+    border-style: none;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+
+    font-family: "Montserrat",
+        sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.create {
+    background: #4e75ff;
+
+}
+
+.destroy {
+    background: #ff4e4e;
+}
+
+#boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 32px;
+    max-width: auto;
+    height: 134px;
+    background: #f6f6fe;
+}

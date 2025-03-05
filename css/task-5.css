@@ -1,0 +1,45 @@
+.widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: "Montserrat",
+        sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+p>.color {
+    font-family: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: #2e2f42;
+}
+
+.change-color {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    background-color: #4e75ff;
+    border-style: none;
+
+    font-family: "Montserrat",
+        sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+
+    padding: 8px 16px;
+}
